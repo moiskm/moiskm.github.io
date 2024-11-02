@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECO Red Escolar - Mercado de Reciclaje</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-green-700 text-white">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">EcoRed Escolar</h1>
+      <nav>
+        <a href="#" class="px-4 py-2 hover:bg-green-600 rounded">Inicio</a>
+        <a href="#" class="px-4 py-2 hover:bg-green-600 rounded">Categorías</a>
+        <a href="#" class="px-4 py-2 hover:bg-green-600 rounded">Anuncios</a>
+        <a href="#" class="px-4 py-2 hover:bg-green-600 rounded">Contacto</a>
+      </nav>
+      <button class="px-4 py-2 bg-white text-green-700 rounded hover:bg-gray-200">Iniciar Sesión</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-green-100 py-20">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-green-700 mb-4">Compra y Vende Materiales Reciclables</h2>
+      <p class="text-gray-600 mb-8">Únete al movimiento para salvar el planeta a través del reciclaje. Descubre materiales disponibles para reciclar o comienza a vender los tuyos.</p>
+      <a href="#" class="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800">Comienza Ahora</a>
+    </div>
+  </section>
+
+  <!-- Search Bar -->
+  <section class="py-6 bg-white shadow-md">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-center">
+        <input type="text" placeholder="Buscar materiales..." class="w-1/2 px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none">
+        <button class="px-6 py-2 bg-green-700 text-white rounded-r-lg hover:bg-green-800">Buscar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categorías Populares -->
+  <section class="container mx-auto px-4 py-10">
+    <h3 class="text-2xl font-bold text-gray-700 mb-6">Categorías Populares</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-lg font-bold text-green-700 mb-2">Plásticos</h4>
+        <p class="text-gray-600">Diversos tipos de plásticos reciclables.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-lg font-bold text-green-700 mb-2">Metales</h4>
+        <p class="text-gray-600">Chatarra, aluminio y más.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-lg font-bold text-green-700 mb-2">Papel</h4>
+        <p class="text-gray-600">Cartón, periódicos y productos de papel.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-lg font-bold text-green-700 mb-2">Vidrio</h4>
+        <p class="text-gray-600">Materiales de vidrio reciclables.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Anuncios Destacados -->
+  <section class="bg-gray-100 py-10">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold text-gray-700 mb-6">Anuncios Destacados</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Ejemplo de Anuncio -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+          <img src="https://via.placeholder.com/300" alt="Imagen del Anuncio" class="w-full h-40 object-cover rounded">
+          <h4 class="text-lg font-bold text-green-700 mt-4">Latas de Aluminio</h4>
+          <p class="text-gray-600 mb-4">500 kg disponibles - $3/kg</p>
+          <button class="px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800">Ver Detalles</button>
+        </div>
+
+        <!-- Repetir para otros anuncios -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+          <img src="https://via.placeholder.com/300" alt="Imagen del Anuncio" class="w-full h-40 object-cover rounded">
+          <h4 class="text-lg font-bold text-green-700 mt-4">Botellas de Plástico</h4>
+          <p class="text-gray-600 mb-4">300 kg disponibles - $1.5/kg</p>
+          <button class="px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800">Ver Detalles</button>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+          <img src="https://via.placeholder.com/300" alt="Imagen del Anuncio" class="w-full h-40 object-cover rounded">
+          <h4 class="text-lg font-bold text-green-700 mt-4">Chatarra Metálica</h4>
+          <p class="text-gray-600 mb-4">750 kg disponibles - $4/kg</p>
+          <button class="px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800">Ver Detalles</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 EcoTrade - Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+</body>
+</html>
